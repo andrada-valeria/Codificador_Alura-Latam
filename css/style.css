@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(45deg,rgba(255, 0, 0, 0.658),rgba(0, 0, 255, 0.74),rgb(50, 160, 50),black);
+     background-size: 400% 400%;
+    position: relative;
+    animation: fondo 10s ease-in-out infinite;
+}
+h1{
+    margin: 0%;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    border: solid 3px #fff;
+    border-radius: 25px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem 3rem;
+}
+
+@keyframes fondo{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+
+    main{
+        padding: 20%;
+        box-shadow: 8px 8px 35px 0px rbg(0 0 0 /75%) ;
+        border-radius: var(--borde-redondo);
+        display: flex;
+    }
+
+ 
+ 
+
+    
+    .btn {
+       
+        color: white;
+        font-weight: bolder;
+        background-color: rgb(45, 28, 136);
+        border: 4;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 0.9em;
+        font-weight: 400;
+        font-size: 20px;
+      }
+
+      .btn:hover {background-color: #b4596c}
+
+.btn:active {
+  background-color: #152580;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+      
+  
+      .text-input {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        display: flex ;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10% 0%;
+        width: auto;
+        height: auto;
+      }
+      
+      
+      
+      .box {
+        padding: 5%;
+        margin: -200px 20px 30px 20px;
+         box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+        position: center;
+        border-radius: 0.5em;
+        width: auto;
+        height: auto;
+      }
+      
+     .footer-column{
+         padding: 40px;
+         text-align: center;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+     }
+    
+   
